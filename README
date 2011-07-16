@@ -1,0 +1,9 @@
+Plugin Name: +1 Traffic Pump
+Plugin URI: http://websolutionsarea.com/?p=942
+Description: Add Traffic Pump window to your blog.
+Author: <a href='http://gplus.to/inlanger'>inlanger</a>
+Version: 0.1b
+Author URI: http://inlanger.org.ua
+
+Для установки закачайте папку с плагином в папку wp-content/plugins и активируйте его в административной части Wordpress. Плагин срабатывает на страницах, на которые добавлен шорткод [TrafficPump]. Если вы хотите что бы Traffic Pump отображался во всех записях блога добавьте в любое место файла single.php код "echo do_shortcode('[TrafficPump]');".
+
