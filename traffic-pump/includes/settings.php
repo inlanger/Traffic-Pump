@@ -13,7 +13,7 @@ if ($_POST['header'] && $_POST['text']){
 echo'<form action="" method="post">';
 echo 'Dialog header:<br /><textarea name="header" cols="50" rows="6">'.file_get_contents(dirname(__FILE__).'/header.txt').'</textarea><br />';
 echo 'Dialog text:<br /><textarea name="text" cols="50" rows="6">'.file_get_contents(dirname(__FILE__).'/text.txt').'</textarea><br />';
-echo '<input type="submit" class="button" value="Сохранить изменения">';
+echo '<input type="submit" class="button" value="Save changes">';
 echo '</form>';
 echo '</div>';
 ?>
