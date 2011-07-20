@@ -52,7 +52,7 @@ class TrafficPump {
                 wp_enqueue_script( 'jquery');
 
 		// Add style of window
-	    	wp_enqueue_style( 'pumpstyle', $this->pluginUrl.'/style.css' );
+	    	wp_enqueue_style( 'pumpstyle', $this->pluginUrl.'/files/style.css' );
 
 		return true;
 	}
