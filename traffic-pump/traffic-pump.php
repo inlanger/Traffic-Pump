@@ -46,7 +46,7 @@ class TrafficPump {
 
 	public function add_scripts_and_styles(){
 		// Add JS of +1 button
-	    	wp_enqueue_script( 'glpus', 'http://apis.google.com/js/plusone.js');
+	    	wp_enqueue_script( 'glpus', 'https://apis.google.com/js/plusone.js');
 
                 // Add jQuery
                 wp_enqueue_script( 'jquery');
